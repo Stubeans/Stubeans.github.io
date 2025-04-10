@@ -65,7 +65,7 @@ body {
     font-size: 95%;
 }
 
-.smallBanner:nth-last-child(3) {
+.smallBanner:nth-last-child(1) {
     border-bottom-right-radius: 15px;
 }
 
