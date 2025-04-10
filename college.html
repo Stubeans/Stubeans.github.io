@@ -30,30 +30,30 @@
                     <block style="background-color: rgb(107, 141, 170); border-radius: 10px;">
                         <portion style="background-color: rgb(129, 157, 182); padding: 20px; border-radius: 10px; font-size: 175%;">
                             <h3>6502 Processor</h3>
-                            <p> I wrote a 6502 Processor in Typescript capable of executing the opCodes found in <a href="/files/Instruction Set - Instruction Set.pdf">this</a> pdf file. <a href="https://github.com/Stubeans/6502Proc">Github Link.</a></p>
+                            <p> I wrote a 6502 Processor in Typescript capable of executing the opCodes found in <a href="/Instruction Set - Instruction Set.pdf">this</a> pdf file. <a href="https://github.com/Stubeans/6502Proc">Github Link.</a></p>
                             <p style="text-align: left; font-size: 75%; margin-left: 5%;"> About: </p>
                             <p style="text-align: left; font-size: 75%; margin-left: 7.5%; margin-right: 5%;"> I have a class for each piece of hardware, hardware being the Clock, CPU, Interupt Controller, Keyboard, Memory, and the MMU. The clock handles the
                                  'pulses' to each piece of hardware, keeping the system in order. The CPU handles the various logic functions as well as the various registers needed to operate these functions. The Interupt Controller and Keyboard are not functional,
                                   they act as placeholders. The Memory handles the memory and how it interacts with the MAR and MDR registers, and finally the MMU handles the actual interactions between the rest of the system and the Memory itself.</p>
                         </portion>
                         <portion style="padding: 10px; display: flex; flex-direction: column; align-items: center;  justify-content: center;">
-                            <img name="Image" src="/img/tsiram_example.png" alt="tsiram_example.png" class="centerFullPNG" style="width: 40vw; height: auto;"/>
+                            <img name="Image" src="/tsiram_example.png" alt="tsiram_example.png" class="centerFullPNG" style="width: 40vw; height: auto;"/>
                         </portion>
                     </block>
                     <br>
                     <block style="background-color: rgb(107, 141, 170); border-radius: 10px;">
                         <portion style="background-color: rgb(129, 157, 182); padding: 20px; border-radius: 10px; font-size: 175%;">
                             <h3>Compiler</h3>
-                            <p> I wrote a custom Compiler in Java that compiles the following grammar in <a href="/files/grammar.pdf">this</a> pdf file. <a href="https://github.com/Stubeans/Compilers">Github Link.</a></p>
+                            <p> I wrote a custom Compiler in Java that compiles the following grammar in <a href="/grammar.pdf">this</a> pdf file. <a href="https://github.com/Stubeans/Compilers">Github Link.</a></p>
                             <p style="text-align: left; font-size: 75%; margin-left: 5%;"> About: </p>
                             <p style="text-align: left; font-size: 75%; margin-left: 7.5%; margin-right: 5%;"> This compiler consists of four major parts, the Lexer, Parser, Semantic Analyzer, and Code Generation. The Lexer handles reading through the users
                                  inputted code character by character and turns the code into Tokens arranged into a Token Stream. The Parser takes the Token Stream and shaves it down to the important parts using recursive descent, arranging the remaining Tokens 
                                  into a Concrete Syntax Tree (CST). The Semantic Analyzer also recursively descends through Token Stream to create both an Abstract Syntax Tree (AST) as well as a Symbol Table which are essentially the most important parts of the 
                                  Tokens to Code Generation. Finally, Code Generation uses the AST and the Symbol table to write 6502 compatible opCodes that when run preform the various functions in our grammar.</p>
-                            <p><a href="/files/compiler_example.pdf">Example PDF</a></p>
+                            <p><a href="/compiler_example.pdf">Example PDF</a></p>
                         </portion>
                         <portion style="padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                            <img name="Image" src="/img/compiler_example.png" alt="compiler_example.png" class="centerFullPNG" style="width: 40vw; height: auto;"/>
+                            <img name="Image" src="/compiler_example.png" alt="compiler_example.png" class="centerFullPNG" style="width: 40vw; height: auto;"/>
                         </portion>
                     </block>
                     <br>
@@ -67,7 +67,7 @@
                                 a realistic project scope. As the lead programmer, I developed the bulk of the program which utilized a Python library, PySimpleGui, to build out the most basic form of the application as a template for future development.</p>
                         </portion>
                         <portion style="padding: 10px; display: flex; flex-direction: column; align-items: center;  justify-content: center;">
-                            <img name="Image" src="/img/ppn_example.png" alt="ppn_example.png" class="centerFullPNG" style="width: 40vw; height: auto;"/>
+                            <img name="Image" src="/ppn_example.png" alt="ppn_example.png" class="centerFullPNG" style="width: 40vw; height: auto;"/>
                         </portion>
                     </block>
                 </middle>
